@@ -32,16 +32,37 @@
 
     <main class="main-content">
 
-        <div class="rules-container">
-            <h1>Rules:</h1>
-            <p>1. This quiz consists of 10 multiple-choice questions.</p>
-            <p>2. You will have only one chance to answer correctly.</p>
-            <p>3. You will get 10 seconds to anwer each question.</p>
-            <p>4. You may review your answer-choices and compare them to the correct answers after completing the quiz.
-            </p>
-            <p>5. To start, click the "Take the Quiz" button. When finished, click the "Submit Quiz" button.</p>
-            <button class="btn btn-secondary">Back</button>
-            <button class="btn btn-primary">Take the Quiz</button>
+        <div class="quiz-container">
+            <p class="heading-xl">Sports Quiz</p>
+            <div class="d-flex flex-justify-between">
+                <p>Question: 2/5</p>
+                <p>score: 10</p>
+            </div>
+            <div class="quiz-question">
+                <p class="text-xl">Which country had won the Men’s Hockey World Cup in 2018?
+                </p>
+                <ul class="styled-list">
+                    <li>
+                        <input type="radio" name="quiz-option" id="australia">
+                        <label for="australia">Australia</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz-option" id="india">
+                        <label for="india">India</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz-option" id="china">
+                        <label for="china">China</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz-option" id="usa">
+                        <label for="usa">USA</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex flex-justify-end">
+                <but class="btn btn-primary">Next</but>
+            </div>
         </div>
     </main>
     <footer class="footer grid-col-2">
