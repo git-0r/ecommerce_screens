@@ -21,11 +21,11 @@ body {
   background-color: var(--clr-primary-hover);
 }
 
-.quiz-container > * + * {
+.result-container > * + * {
   margin-top: 2rem;
 }
 
-.quiz-container {
+.result-container {
   width: 50%;
   margin: 0 auto;
 }
@@ -41,13 +41,17 @@ body {
   background-color: var(--clr-white-full);
 }
 
+.quiz-solution li {
+  list-style: upper-alpha;
+}
+
 @media screen and (max-width: 600px) {
   :root {
     font-size: 66.25%;
   }
 
-  .quiz-container {
+  .result-container {
     width: 90%;
-    height: 70vh;
+    height: auto;
   }
 }
