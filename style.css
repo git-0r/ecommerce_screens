@@ -32,7 +32,7 @@ body {
 .banner .banner-img {
   width: 100%;
   height: 22rem;
-  object-fit: fill;
+  object-fit: cover;
   border-radius: var(--border-radius-lg);
 }
 
@@ -75,7 +75,7 @@ body {
   background-color: var(--clr-white-full);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 38em) {
   :root {
     font-size: 66.25%;
   }
