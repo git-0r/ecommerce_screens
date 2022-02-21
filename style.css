@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.navbar-input {
+  width: 80%;
+  height: 2rem;
+  border: 1px solid var(--clr-black-outline);
+  padding: 0 1rem;
+  position: relative;
+  border-radius: var(--border-radius-sm);
+}
+
+.navbar-input:focus {
+  outline-color: var(--clr-primary-mid);
+}
+
+.main-content {
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--clr-primary-hover);
+}
+
+.main-content > * + * {
+  margin-top: 2rem;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .banner-img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: var(--border-radius-lg);
+}
+
+.banner-text {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  color: var(--clr-white-full);
+}
+
+.quiz-container {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.newsletter {
+  margin: 5rem auto;
+  flex-direction: column;
+}
+
+.newsletter-email-input {
+  height: 2rem;
+  width: 50vw;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--clr-black-mid);
+}
+
+.newsletter-form {
+  gap: 2rem;
+}
+
+.footer {
+  padding: 1rem;
+  color: var(--clr-black-full);
+  border-top: 1px solid var(--clr-black-disabled);
+  background-color: var(--clr-primary-hover);
+}
+
+.bg-white-full {
+  background-color: var(--clr-white-full);
+}
+
+@media screen and (max-width: 38em) {
+  :root {
+    font-size: 66.25%;
+  }
+
+  .banner .banner-img {
+    height: 20rem;
+  }
+  .banner-text {
+    top: 2rem;
+    left: 1rem;
+  }
+}
