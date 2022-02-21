@@ -43,7 +43,12 @@ body {
   background-color: var(--clr-white-full);
 }
 
-@media screen and (max-width: 600px) {
+.rules-list-item {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 38em) {
   :root {
     font-size: 66.25%;
   }
